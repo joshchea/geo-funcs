@@ -180,25 +180,3 @@ f.close()
 conn.close()
 
 print 'finished data processing!'
-
-##x1 = -77.006422
-##y1 = 38.896993
-##x2 = -76.694300
-##y2 = 39.192362
-##points = GetDiscretePoints(22860, 21600, 60, x1, y1, x2, y2)
-##print 'here are the points..'
-##for x, y, t in points:
-##    Visum.Net.AddNode(t+1, x, y)
-    
-
-##
-##for each tripID:
-##    pull journey items (array)
-##        
-        
-        
-    
-
-
-    
-    
