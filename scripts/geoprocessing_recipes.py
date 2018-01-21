@@ -4,7 +4,7 @@
 #               
 # Author:      Chetan Joshi, Portland OR
 #
-# Dependencies:osgeo ogr library is required - pip install osgeo : for details see - https://pypi.python.org/pypi/GDAL
+# Dependencies:osgeo ogr library is required. For details see - https://pypi.python.org/pypi/GDAL
 #
 # Created:     01/20/2018
 #              
