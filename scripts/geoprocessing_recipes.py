@@ -53,3 +53,27 @@ def point_in_polygon(PointData,  ZoneWKTGeoms):
         PointData = temp
         
     return POI_to_Zone
+
+def count_in_polygon(PointData, PolyWKT):
+    '''Takes a point data layer and a polygon layer 
+       and 
+       Returns the number of point  features in each polygon
+
+       PointData    = ["NO","XCOORD","YCOORD"]
+       ZoneWKTGeoms = ["NO", "WKTSurface"]
+    '''
+    POI_in_Zone = {}
+    for ZoneNo, Surface in PolyWKT:
+        POI_in_Zone[ZoneNo] = 0
+        Poly = ogr.CreateGeometry(ogr.wkbPoint)
+        temp = []
+        for no, x, y in PointData:
+            point = ogr.Geometry(ogr.wkbPoint)
+            point.AddPoint(x, y)
+            if Poly.Contains(point):
+                POI_in_Zone[ZoneNo]+=1
+            else:
+                temp.append([no,x,y])
+        PointData = temp
+
+    return POI_in_Zone #key is zone id, value is number of points
