@@ -1,5 +1,5 @@
 # geo-funcs
-Some utilities for geo spatial operations in python. This a an evolving set of python scripts for performing gis/geo operations on spatial data. The scripts cover functionalities such as - point in polygon test, generation of interpolated trajectories from GTFS data, affine transformation for moving networks in generic coordinate systems to true gis systems etc. 
+Some utilities for geo spatial operations in python. This a an evolving set of python scripts for performing gis/geo operations on spatial data. The scripts cover functionalities such as - point in polygon test, generation of interpolated trajectories from GTFS data, affine transformation for transforming networks in generic coordinate systems to true gis systems etc. 
 
 Dependencies include (these libraries may not be natively installed with Python): 
 <ul style="list-style-type:disc">
