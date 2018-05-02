@@ -8,5 +8,5 @@ Dependencies include (these libraries may not be natively installed with Python)
   <li>sqlite3 library (https://docs.python.org/2/library/sqlite3.html) {this may or may not come with a given python install - better to check by trying an import sqlite3 in python console to confirm}</li>
 </ul> 
 
-A good reference for getting familiar with GDAL is Chris Garrard's tutorials posted here: http://www.gis.usu.edu/~chrisg/python/2009/
+A good reference for getting familiar with GDAL is Chris Garrard's tutorials page here: http://www.gis.usu.edu/~chrisg/python/2009/
  
